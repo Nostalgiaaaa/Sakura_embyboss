@@ -14,7 +14,7 @@ from bot.sql_helper.sql_emby import sql_update_emby, Emby
 from bot.func_helper.utils import pwd_create, convert_runtime, cache, Singleton
 
 
-def create_policy(admin=False, disable=False, limit: int = 2, block: list = None):
+def create_policy(admin=False, disable=False, limit: int = 1, block: list = None):
     """
     创建用户策略
     :param admin: bool 是否开启管理员
